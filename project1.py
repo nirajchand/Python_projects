@@ -18,6 +18,11 @@ class hospital:
         Dataframeright = LabelFrame(Dataframe,bd=10,relief=RIDGE,padx=10,font=("times new romen",12,"bold"),text="Prescription")
         Dataframeright.place(x=990,y=5,width=460,height=350)
 
+        downframe = Frame(self.root,bd=10,relief=RIDGE)
+        downframe.place(x=0,y=530,width=1530,height=200)
+
+        Label(downframe,text="You are welcome on this project",font=("times new roman",14,"bold")).place(x=5,y=5)
+
 
 
 
